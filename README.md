@@ -25,37 +25,55 @@ Vengo de más de 3 años como **Consultor Funcional ERP / GRP** en el sector pú
 
 **Migración contable asistida por IA** — 2026
 
-- **Prompt engineering y skill de Claude:** reglas contables y presupuestales traducidas a instrucciones estructuradas, con principios explícitos como *no inventar* y *preguntar antes de armar*.
-- **Agente con tool use y servidor MCP:** consulta catálogos y documentos de contexto (RAG) y propone alternativas con evidencia. Una regla nueva solo se guarda cuando una persona la aprueba.
-- **Aplicación de carga automatizada**, construida con Claude Code: ejecuta el proceso en el sistema con trazabilidad, reportes y reanudación sin duplicados.
+- **Prompt engineering y skill de Claude:** reglas contables y presupuestales traducidas a instrucciones estructuradas.
+- **Agente con tool use y servidor MCP propio:** consulta catálogos y documentos de contexto (RAG) y propone alternativas con evidencia.
+- **Aplicación de carga automatizada**, construida con Claude Code y Playwright: ejecuta el proceso en el sistema con sesiones en paralelo, trazabilidad, reportes y reanudación sin duplicados.
 - **Humano en el ciclo:** lo que la IA no debe decidir se convierte en preguntas para el usuario sin detener el trabajo masivo.
+- **Enfoque ágil:** entregas incrementales, backlog priorizado y validación continua con los usuarios.
+
+| Área | Herramientas |
+|---|---|
+| **IA** | Claude Code · Claude API (tool use) · MCP (servidor propio) · Skills de Claude · RAG |
+| **Backend** | Python 3.13 · FastAPI · Uvicorn · Pydantic · Playwright (Chromium) · SQLite · openpyxl · pypdf |
+| **Frontend** | JavaScript (ES modules) · HTML · CSS |
+| **Calidad** | pytest (237 pruebas automatizadas) · pip-audit |
+| **Metodología** | Agile · Scrum · backlog e historias de usuario |
 
 ### `$ ls ~/stack`
 
 <p align="center">
   <img src="https://img.shields.io/badge/Claude-0d0d0d?style=for-the-badge&logo=claude&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Claude_Code-0d0d0d?style=for-the-badge&logo=claude&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/Claude_API-0d0d0d?style=for-the-badge&logo=claude&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/MCP-0d0d0d?style=for-the-badge&logo=modelcontextprotocol&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Prompt_Engineering-0d0d0d?style=for-the-badge&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/RAG-0d0d0d?style=for-the-badge&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Amazon_Bedrock-0d0d0d?style=for-the-badge&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/ChatGPT-0d0d0d?style=for-the-badge&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Gemini-0d0d0d?style=for-the-badge&logo=googlegemini&logoColor=ff003c" />
   <br/>
   <img src="https://img.shields.io/badge/Python-0d0d0d?style=for-the-badge&logo=python&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/FastAPI-0d0d0d?style=for-the-badge&logo=fastapi&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/Pydantic-0d0d0d?style=for-the-badge&logo=pydantic&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Playwright-0d0d0d?style=for-the-badge&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/SQLite-0d0d0d?style=for-the-badge&logo=sqlite&logoColor=ff003c" />
-  <img src="https://img.shields.io/badge/Linux-0d0d0d?style=for-the-badge&logo=linux&logoColor=ff003c" />
-  <img src="https://img.shields.io/badge/AWS-0d0d0d?style=for-the-badge&logoColor=ff003c" />
-  <img src="https://img.shields.io/badge/Git-0d0d0d?style=for-the-badge&logo=git&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/pytest-0d0d0d?style=for-the-badge&logo=pytest&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/JavaScript-0d0d0d?style=for-the-badge&logo=javascript&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/HTML-0d0d0d?style=for-the-badge&logo=html5&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/CSS-0d0d0d?style=for-the-badge&logo=css&logoColor=ff003c" />
   <br/>
-  <img src="https://img.shields.io/badge/ERP_/_GRP-0d0d0d?style=for-the-badge&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/Agile-0d0d0d?style=for-the-badge&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/Scrum-0d0d0d?style=for-the-badge&logo=scrumalliance&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Jira-0d0d0d?style=for-the-badge&logo=jira&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Confluence-0d0d0d?style=for-the-badge&logo=confluence&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Notion-0d0d0d?style=for-the-badge&logo=notion&logoColor=ff003c" />
-  <img src="https://img.shields.io/badge/Scrum-0d0d0d?style=for-the-badge&logo=scrumalliance&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/ERP_/_GRP-0d0d0d?style=for-the-badge&logoColor=ff003c" />
+  <br/>
+  <img src="https://img.shields.io/badge/Linux-0d0d0d?style=for-the-badge&logo=linux&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Kali_Linux-0d0d0d?style=for-the-badge&logo=kalilinux&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Linux_Mint-0d0d0d?style=for-the-badge&logo=linuxmint&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/AWS-0d0d0d?style=for-the-badge&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/Git-0d0d0d?style=for-the-badge&logo=git&logoColor=ff003c" />
 </p>
 
 ### `$ ls ~/certificaciones/ia`
