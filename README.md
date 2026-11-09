@@ -62,15 +62,15 @@ Vengo de más de 3 años como **Consultor Funcional ERP / GRP** en el sector pú
 
 | Curso / certificación | Emisor | Fecha |
 |---|---|---|
-| Claude with Amazon Bedrock | Anthropic | ago 2026 |
-| Claude Code 101 | Anthropic | may 2026 |
-| Claude 101 | Anthropic | may 2026 |
-| Introduction to Claude Cowork | Anthropic | may 2026 |
-| AI Fluency: Framework & Foundations | Anthropic | may 2026 |
-| AWS AI Fundamentals | AWS / TIDWIT | ago 2026 |
-| IA sin Límites (8.5 h) | AWS / TIDWIT | ago 2026 |
-| Domina la IA con Gemini · Herramientas de IA de Google | Google Gemini / Nex·ia | jul 2026 |
-| Prompting Responsable: Maximiza la IA en tu Negocio | Santander Open Academy | may 2026 |
+| Claude with Amazon Bedrock | Anthropic | ago&nbsp;2026 |
+| Claude Code 101 | Anthropic | may&nbsp;2026 |
+| Claude 101 | Anthropic | may&nbsp;2026 |
+| Introduction to Claude Cowork | Anthropic | may&nbsp;2026 |
+| AI Fluency: Framework & Foundations | Anthropic | may&nbsp;2026 |
+| AWS AI Fundamentals | AWS / TIDWIT | ago&nbsp;2026 |
+| IA sin Límites (8.5 h) | AWS / TIDWIT | ago&nbsp;2026 |
+| Domina la IA con Gemini · Herramientas de IA de Google | Google Gemini / Nex·ia | jul&nbsp;2026 |
+| Prompting Responsable: Maximiza la IA en tu Negocio | Santander Open Academy | may&nbsp;2026 |
 
 <details>
 <summary><b>Proyectos, liderazgo, nube y redes</b></summary>
@@ -78,11 +78,11 @@ Vengo de más de 3 años como **Consultor Funcional ERP / GRP** en el sector pú
 
 | Curso / certificación | Emisor | Fecha |
 |---|---|---|
-| Máster en Project Management (en curso) | OBS Business School · Universitat de Barcelona | 2026 – 2027 |
-| Gestión de Proyectos y Fundamentos de Metodología Agile · Liderazgo | Santander Open Academy | may 2026 |
-| Hablar en Público con Técnicas Teatrales | Santander Open Academy / Escuela TAI | ago 2026 |
+| Máster en Project Management (en curso) | OBS Business School · Universitat de Barcelona | 2026&nbsp;–&nbsp;2027 |
+| Gestión de Proyectos y Fundamentos de Metodología Agile · Liderazgo | Santander Open Academy | may&nbsp;2026 |
+| Hablar en Público con Técnicas Teatrales | Santander Open Academy / Escuela TAI | ago&nbsp;2026 |
 | Fundamentos de Nube AWS | AWS / TIDWIT | 2024 |
-| CCNAv7 | Cisco Networking Academy | 2023 – 2024 |
+| CCNAv7 | Cisco Networking Academy | 2023&nbsp;–&nbsp;2024 |
 | NDG Linux Essentials | Cisco Networking Academy | 2023 |
 | Formación complementaria en ciberseguridad (Maltego) | Fundación Telefónica | — |
 
