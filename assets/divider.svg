@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 22" width="1200" height="22" role="img" aria-label="separador">
+<defs>
+<pattern id="dw" width="12" height="22" patternUnits="userSpaceOnUse"><circle cx="6" cy="11" r="1.5" fill="#8a8a8a"/></pattern>
+<pattern id="dr" width="12" height="22" patternUnits="userSpaceOnUse"><circle cx="6" cy="11" r="1.9" fill="#ff003c"/></pattern>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="edge"><rect width="1200" height="22" fill="url(#g)"/></mask>
+<mask id="pulse"><g transform="translate(-260 0)"><animateTransform attributeName="transform" type="translate" dur="7s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.7;1" values="-260 0;1220 0;1220 0" keySplines=".45 0 .55 1;0 0 1 1"/><rect width="240" height="22" fill="url(#g)"/></g></mask>
+</defs>
+<g mask="url(#edge)"><rect width="1200" height="22" fill="url(#dw)" opacity=".55"/><rect width="1200" height="22" fill="url(#dr)" mask="url(#pulse)"/></g>
+</svg>

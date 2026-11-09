@@ -1,0 +1,42 @@
+name: Generar animaciones del perfil
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # una vez al día
+  workflow_dispatch: # para correrla a mano desde la pestaña Actions
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Preparar carpeta
+        run: mkdir -p dist
+
+      - name: Viborita de contribuciones (rojo / negro)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#ff003c&color_dots=#161b22,#3d0010,#6e001b,#b0002b,#ff003c
+            dist/snake-light.svg?color_snake=#b0002b&color_dots=#ebedf0,#ffc2cc,#ff7a90,#ff2a55,#b0002b
+
+      - name: Racha de contribuciones
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&locale=es&background=0D0D0D&border=262626&stroke=3A3A3A&ring=FF003C&fire=FF003C&currStreakNum=FFFFFF&currStreakLabel=FF003C&sideNums=FFFFFF&sideLabels=A8A8A8&dates=6E6E6E
+          path: dist/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publicar en la rama "output"
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
