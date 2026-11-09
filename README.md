@@ -47,14 +47,14 @@
      La primera vez aparecen después de correrla en la pestaña Actions. -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Froyo89/froyo89/output/streak.svg" alt="racha de contribuciones" />
+  <img src="https://raw.githubusercontent.com/Froyo89/Froyo89/output/streak.svg" alt="racha de contribuciones" />
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Froyo89/froyo89/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Froyo89/froyo89/output/snake-light.svg" />
-    <img alt="viborita comiéndose las contribuciones" src="https://raw.githubusercontent.com/Froyo89/froyo89/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Froyo89/Froyo89/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Froyo89/Froyo89/output/snake-light.svg" />
+    <img alt="viborita comiéndose las contribuciones" src="https://raw.githubusercontent.com/Froyo89/Froyo89/output/snake-dark.svg" />
   </picture>
 </p>
 
