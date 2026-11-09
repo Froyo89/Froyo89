@@ -1,7 +1,7 @@
 <!-- Banner alternativo (rojo con sombra larga): cambia banner-dots.svg por banner-red.svg -->
 
 <div align="center">
-  <img src="./assets/banner-dots.svg" width="100%" alt="Froylan Galvan Tellez — Consultor Funcional ERP/GRP · IA Generativa · Prompt Engineering" />
+  <img src="./assets/banner-dots.svg" width="100%" alt="Froy Tellez — IA aplicada · Prompt Engineering · Automatización · ERP/GRP" />
 </div>
 
 <p align="center">
@@ -17,40 +17,76 @@
   <img src="./assets/terminal.svg" width="100%" alt="Terminal animada: whoami, perfil y prompt" />
 </div>
 
-Ingeniero en Sistemas Computacionales y **Consultor Funcional ERP / GRP** con más de 3 años implementando sistemas en el sector público: levanto requerimientos, defino reglas de negocio, diseño la solución funcional y capacito a los usuarios.
+Ingeniero en Sistemas Computacionales enfocado en **IA aplicada a procesos de negocio**. Diseño prompts e instrucciones para modelos de lenguaje, **skills de Claude**, **agentes con tool use** y **servidores MCP** que automatizan trabajo contable y financiero con reglas verificables y supervisión humana.
 
-Mi otra mitad es la **IA generativa**: diseño y optimizo **prompts** con Claude y ChatGPT para automatizar reportería, armar dashboards ejecutivos y analizar resultados.
+Vengo de más de 3 años como **Consultor Funcional ERP / GRP** en el sector público. Eso me permite unir el conocimiento del negocio con la IA generativa y convertir reglas de negocio en instrucciones precisas y herramientas que el usuario final sí puede operar.
+
+### `$ cat proyectos/reciente.md`
+
+**Migración contable asistida por IA** — 2026
+
+- **Prompt engineering y skill de Claude:** reglas contables y presupuestales traducidas a instrucciones estructuradas, con principios explícitos como *no inventar* y *preguntar antes de armar*.
+- **Agente con tool use y servidor MCP:** consulta catálogos y documentos de contexto (RAG) y propone alternativas con evidencia. Una regla nueva solo se guarda cuando una persona la aprueba.
+- **Aplicación de carga automatizada**, construida con Claude Code: ejecuta el proceso en el sistema con trazabilidad, reportes y reanudación sin duplicados.
+- **Humano en el ciclo:** lo que la IA no debe decidir se convierte en preguntas para el usuario sin detener el trabajo masivo.
 
 ### `$ ls ~/stack`
 
 <p align="center">
   <img src="https://img.shields.io/badge/Claude-0d0d0d?style=for-the-badge&logo=claude&logoColor=ff003c" />
-  <img src="https://img.shields.io/badge/ChatGPT-0d0d0d?style=for-the-badge&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/Claude_Code-0d0d0d?style=for-the-badge&logo=claude&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/MCP-0d0d0d?style=for-the-badge&logo=modelcontextprotocol&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Prompt_Engineering-0d0d0d?style=for-the-badge&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/Amazon_Bedrock-0d0d0d?style=for-the-badge&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/ChatGPT-0d0d0d?style=for-the-badge&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/Gemini-0d0d0d?style=for-the-badge&logo=googlegemini&logoColor=ff003c" />
+  <br/>
+  <img src="https://img.shields.io/badge/Python-0d0d0d?style=for-the-badge&logo=python&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/FastAPI-0d0d0d?style=for-the-badge&logo=fastapi&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/Playwright-0d0d0d?style=for-the-badge&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/SQLite-0d0d0d?style=for-the-badge&logo=sqlite&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/Linux-0d0d0d?style=for-the-badge&logo=linux&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/AWS-0d0d0d?style=for-the-badge&logoColor=ff003c" />
+  <img src="https://img.shields.io/badge/Git-0d0d0d?style=for-the-badge&logo=git&logoColor=ff003c" />
   <br/>
   <img src="https://img.shields.io/badge/ERP_/_GRP-0d0d0d?style=for-the-badge&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Jira-0d0d0d?style=for-the-badge&logo=jira&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Confluence-0d0d0d?style=for-the-badge&logo=confluence&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Notion-0d0d0d?style=for-the-badge&logo=notion&logoColor=ff003c" />
-  <img src="https://img.shields.io/badge/Slack-0d0d0d?style=for-the-badge&logoColor=ff003c" />
-  <img src="https://img.shields.io/badge/Zoho_CRM-0d0d0d?style=for-the-badge&logo=zoho&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Scrum-0d0d0d?style=for-the-badge&logo=scrumalliance&logoColor=ff003c" />
-  <br/>
   <img src="https://img.shields.io/badge/Kali_Linux-0d0d0d?style=for-the-badge&logo=kalilinux&logoColor=ff003c" />
   <img src="https://img.shields.io/badge/Linux_Mint-0d0d0d?style=for-the-badge&logo=linuxmint&logoColor=ff003c" />
-  <img src="https://img.shields.io/badge/Git-0d0d0d?style=for-the-badge&logo=git&logoColor=ff003c" />
-  <img src="https://img.shields.io/badge/AWS-0d0d0d?style=for-the-badge&logoColor=ff003c" />
 </p>
 
-### `$ ls ~/certificaciones`
+### `$ ls ~/certificaciones/ia`
 
-| Certificación | Emisor | Año |
+| Curso / certificación | Emisor | Fecha |
 |---|---|---|
-| AI Fluency Framework & Foundations | Anthropic | 2026 |
-| Introduction to Claude Cowork | Anthropic | 2026 |
-| Prompting Responsable: Maximiza la IA en tu Negocio | Santander Open Academy | 2026 |
-| Gestión de Proyectos y Fundamentos de Metodología Agile | Santander Open Academy | 2026 |
-| Fundamentos de Nube AWS | Amazon Web Services | — |
+| Claude with Amazon Bedrock | Anthropic | ago 2026 |
+| Claude Code 101 | Anthropic | may 2026 |
+| Claude 101 | Anthropic | may 2026 |
+| Introduction to Claude Cowork | Anthropic | may 2026 |
+| AI Fluency: Framework & Foundations | Anthropic | may 2026 |
+| AWS AI Fundamentals | AWS / TIDWIT | ago 2026 |
+| IA sin Límites (8.5 h) | AWS / TIDWIT | ago 2026 |
+| Domina la IA con Gemini · Herramientas de IA de Google | Google Gemini / Nex·ia | jul 2026 |
+| Prompting Responsable: Maximiza la IA en tu Negocio | Santander Open Academy | may 2026 |
+
+<details>
+<summary><b>Proyectos, liderazgo, nube y redes</b></summary>
+<br/>
+
+| Curso / certificación | Emisor | Fecha |
+|---|---|---|
+| Máster en Project Management (en curso) | OBS Business School · Universitat de Barcelona | 2026 – 2027 |
+| Gestión de Proyectos y Fundamentos de Metodología Agile · Liderazgo | Santander Open Academy | may 2026 |
+| Hablar en Público con Técnicas Teatrales | Santander Open Academy / Escuela TAI | ago 2026 |
+| Fundamentos de Nube AWS | AWS / TIDWIT | 2024 |
+| CCNAv7 | Cisco Networking Academy | 2023 – 2024 |
+| NDG Linux Essentials | Cisco Networking Academy | 2023 |
+| Formación complementaria en ciberseguridad (Maltego) | Fundación Telefónica | — |
+
+</details>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
